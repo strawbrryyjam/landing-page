@@ -159,4 +159,42 @@ p {
     border-radius: 10px;
     margin-bottom: 100px;
     margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-5-description {
+    font-size: 11px;
+    color:white;
+    padding-left: 10px;
+    margin-left: 80px;
+}
+
+.container-5-heading {
+    margin-bottom: 3px;
+}
+
+.container-5-capt {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+.container-5-button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 3px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-weight: bold;
+    border-style:ridge;
+    margin-right: 100px;
 }
