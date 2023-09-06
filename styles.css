@@ -37,17 +37,32 @@ body {
     color: #f9faf8;
     display: inline-flex;
     padding-bottom: 80px;
-    flex
+    gap: 50px;
 }
 
 .Hero {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.two-image {
+    width: 100%;
+    height: 75%;
 }
 
 .one {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 6;
+    justify-content: start;
+    align-items: flex-start;
 }
 
 .button {
@@ -60,8 +75,32 @@ body {
     font-weight: bold;
     border-radius: 6px;
     border-color:#3882f6;
+    width: 18%;
 }
 
-.container-2 .two {
-    flex-basis: 10%;
+/* Container 3 */
+
+.container-3 {
+    display: flex;
+}
+
+.container-3-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-3 {
+    width: 15%;
+    height: auto;
+}
+
+.container-3-captions {
+    display: flex;
+    flex-direction: row;
 }
